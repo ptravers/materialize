@@ -17,7 +17,6 @@ use std::iter;
 use std::str::FromStr;
 use std::sync::Arc;
 
-use differential_dataflow::trace::implementations::BatchContainer;
 use futures::future;
 use itertools::{Either, Itertools};
 use mz_adapter_types::connection::ConnectionId;

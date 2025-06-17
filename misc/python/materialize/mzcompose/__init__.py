@@ -311,7 +311,7 @@ def get_variable_system_parameters(
         VariableSystemParameter(
             "persist_blob_cache_scale_with_threads", "true", ["true", "false"]
         ),
-        VaraibleSystemParameter(
+        VariableSystemParameter(
             "storage_sink_bulk_write_to_persist", "false", ["true", "false"]
         ),
         VariableSystemParameter("pg_offset_known_interval", "1s", ["100ms", "1s"]),

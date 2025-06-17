@@ -332,4 +332,5 @@ pub fn all_dyncfgs(configs: ConfigSet) -> ConfigSet {
         .add(&crate::sources::sql_server::SNAPSHOT_MAX_LSN_WAIT)
         .add(&crate::sources::sql_server::SNAPSHOT_PROGRESS_REPORT_INTERVAL)
         .add(&crate::sources::sql_server::OFFSET_KNOWN_INTERVAL)
+        .add(&STORAGE_SINK_BULK_WRITE_TO_PERSIT)
 }
